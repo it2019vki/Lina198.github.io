@@ -1,23 +1,124 @@
 <!DOCTYPE html>
 <html>
 <body>
- <head>
+<head>
     <meta charset="utf-8">
-      <title>My website</title>
+    <link rel="shortcut icon" href="con.png" type="image/png">
+    <title>My website</title>
 <style>
-  body { 
-       background: url(bga.jpg); 
-    }
-  .stroke {
+.stroke {
     font: bold 3em Arial, sans-serif;
     color: #4B0082;
     text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
                  #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
                  #cad5e2 5px 5px 0;
   }
+   .text {
+    text-align:  center;
+   }
+   body { 
+       background: url(bga.jpg); 
+    }
+  hr {
+    border: none; 
+    background-color: #4B0082; 
+    color: #4B0082; 
+    height: 5px; 
+    }
+   .str {
+    font: 2em Arial, sans-serif;
+    text-shadow: #4B0082 1px 1px 0, #4B0082 -1px -1px 0, 
+                #4B0082 -1px 1px 0, #4B0082 1px -1px 0;
+   }
+  .dark {
+    text-shadow: #000080 0 0 10px; 
+   }
+   footer {
+    background: -webkit-linear-gradient(#4B0082, #000080); 
+    background: -o-linear-gradient(#4B0082,#000080 ); 
+    background: -moz-linear-gradient(#4B0082,#000080 ); 
+    background: linear-gradient(#4B0082, #000080); 
+    background-color: #4B0082; 
+}
+    img {
+        border: 5px solid #4B0082 ;
+    }
 </style>
+ <div class="text">
+<h1 class ="stroke"> Мои любимые учебники и по HTML, CSS, Javascript, PHP</h1>
+</div>
+<hr>
 </head>
-  <h1 class ="stroke">ГЛАВНАЯ СТРАНИЦА<h1>
-    <a href = "index.html">ЖМЯКАй</a>
-<body>
+<ul>
+ <li style = "float:left;width: 49%;">
+    <h2 class ="str">HTML и CSS</h2>
+     <ul>
+         <li>
+              <h3 class= "dark">
+                   Великолепный для учебы сайт HTML-academy
+              </h3>
+                             <a href="https://htmlacademy.ru/">
+                                       <img src ="unnamed.jpg" height="100" width="100"> 
+                            </a>
+         </li>
+         <li>
+              <h3 class= "dark">
+                  Сайт с полезной информацией по HTML и CSS 
+              </h3>
+                             <a href="http://htmlbook.ru/">
+                                        <img src ="htmbook.jpg" height="100" width="100">   
+                            </a>
+         </li>
+         <li>
+              <h3 class= "dark">
+                  Книга "CSS.Каскданые таблицы стилей"
+              </h3>
+                             <a href="https://www.litres.ru/eric-a-meyer/css-kaskadnye-tablicy-stiley-podrobnoe-rukovodstvo-3-e-izdanie-24499470/?yclid=5174411697794614128&utm_medium=cpc&utm_source=yandex&utm_campaign=DSA_LoggedInPlus_~500634871%7C41873592&utm_term=&utm_content=v2%7C%7C7558082767%7C%7C771337%7C%7C%7C%7C1%7C%7Cpremium%7C%7Cnone%7C%7Csearch%7C%7Cno&k50id=01000000771337_%D0%B2%D1%81%D0%B5%20%D1%81%D1%82%D1%80">
+                                   <img src ="css.jpg" height="150" width="100"> 
+                            </a>
+         </li>
+     </ul>
+  </li>
+   <li text class = "float:right;width: 49%;">
+       <ul>
+       <h2 class = "str">Javascript и java</h2>
+            <li>
+               <h3 class= "dark">
+                    Руководство для начинающих  JAVA-8
+               </h3> 
+                      <a href="https://codernet.ru/books/java/java_8_rukovodstvo_dlya_nachinayushhix_gerbert_shildt/">
+                                 <img src ="java8.jpg"height="100" width="100">
+                         </a>
+            </li> 
+            <li> 
+                <h3 class= "dark">
+                     Сайт для изучения Java и JavaScript
+                </h3> 
+                    <a href="https://javarush.ru/">
+                                 <img src ="javar.jpg "height="100" width="200">
+                     </a>
+             </li>
+          </ul>
+    </li>   
+   <li  class = "float:right;width: 49%;">
+       <h2 class = "str">PHP</h2>
+       <ul>
+           <li>
+          <h3 class= "dark">
+              PHP 7 в подлиннике. Дмитрий Котеров
+          </h3> 
+                  <a href="https://codernet.ru/books/php/php_7_v_podlinnike_dmitrij_koterov/">
+                              <img src ="php.jpg "height="100" width="100">
+                 </a>
+           </li>    
+       </ul>
+   </li>
+   </ul>
+   <hr>
+ <footer class = "float:left;">   
+  <b>Контактная информация<b> 
+  <p>Email: katrin.i.80@mail.ru <p>
+   <p>Телефон : 666<p> 
+ </footer>                                                                         
+</body>
 </html>
